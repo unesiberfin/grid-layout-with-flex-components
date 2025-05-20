@@ -41,17 +41,17 @@ h1 {
 }
 
 .emoji {
+  display: flex;
+  flex-direction: column;
   background-color: #fff;
   border: 2px solid #ccc;
   border-radius: 10px;
   padding: 20px;
   text-align: left;
+  height: ;
 }
   
-.icon {
-  font-size: 3em;
-  text-align: center;
-}
+
 
 h2 {
   font-size: 1.5em;
@@ -69,11 +69,17 @@ a {
   display: inline-block;
   margin-top: 10px;
   padding: 10px 20px;
-  align-self: left;
+  width: 90%;
   color: #fff;
   background-color: #5f2093;
   text-decoration: none;
   border-radius: 5px;
+  
 }
 
-  
+.icon {
+  font-size: 3em;
+  order: -1;
+  text-align: center;
+
+}
