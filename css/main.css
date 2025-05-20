@@ -1,6 +1,9 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   color: #222;
+  width: 900px;
+  display: flex;
+  flex-direction: column;
 }
 
 .emoji {
@@ -33,25 +36,7 @@ body {
   color: white;
   padding: 1rem;
   border-radius: 8px;
-}
 
-.emojis:nth-child(1){
-  grid-column: 1;
-  grid-row:1;
-}
-.emojis:nth-child(2){
-    grid-column: 2;
-    grid-row:1;
-}
-
-.emoji:nth-child(3){
-  grid-column: 1;
-  grid-row:2;
-}
-  
-.emojis:nth-child(4){
-  grid-column: 2;
-  grid-row:2;
 }
 
 .icon {
