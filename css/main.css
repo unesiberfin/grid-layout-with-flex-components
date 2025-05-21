@@ -4,6 +4,12 @@ body {
   width: 900px;
   display: flex;
   flex-direction: column;
+  
+}
+
+p {
+display: flex;
+flex-grow: 1;
 }
 
 .emoji {
@@ -15,14 +21,15 @@ body {
   flex-direction: column;
   border: 2px solid #ccc;
   border-radius: 10px;
-  text-align: left;
-
+  justify-content: space-evenly;
 }
+
 .emojis {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  gap: .75em;
+  gap: 1em;
+  margin: auto 0;
 }
 
 .emoji h2 {
@@ -34,14 +41,17 @@ body {
   text-decoration: none;
   background-color: #781BAA;
   color: white;
-  padding: 1rem;
+  padding: 1em;
   border-radius: 8px;
-
+  
 }
 
 .icon {
   font-size: 4rem;
   order: -1;
   text-align: center;
+  
 
 }
+
+
